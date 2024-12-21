@@ -1,7 +1,9 @@
 import fs from "node:fs";
 
 const corePropsPath = "C:/ProgramData/SteelSeries/SteelSeries Engine 3/coreProps.json";
-const app = "CLOCK";
+const app = "GAMEDAC_TIME";
+const displayName = "GameDAC Time";
+const developer = "Entytaiment25";
 const timeEvent = "TIME";
 let gamesenseUrl = "";
 
@@ -43,7 +45,9 @@ const fetchJSON = async (url, method = "POST", body = null) => {
 const registerClock = async () => {
   const clockMetadata = {
     game: app,
-    game_display_name: "Clock",
+    game_display_name: displayName,
+    developer: developer,
+    deinitialize_timer_length_ms: 60000,
   };
 
   try {
@@ -111,7 +115,7 @@ const sendTime = async () => {
   const eventData = {
     game: app,
     event: timeEvent,
-    data: { value: `   ${timeStr}` },
+    data: { value: timeStr },
   };
 
   try {

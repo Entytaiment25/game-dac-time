@@ -1,7 +1,7 @@
 {
   "name": "game-dac-time",
   "version": "1.0.0",
-  "description": "A project to show the time on the SteelSeries GameDac with config options",
+  "description": "A project to display the time on the SteelSeries GameDac with configurable options.",
   "main": "index.js",
   "type": "module",
   "scripts": {
