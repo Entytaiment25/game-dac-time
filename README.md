@@ -20,3 +20,7 @@ If you encounter any other issues, please report them on the project's GitHub Is
 ## Disclaimer
 
 This application has only been tested on the SteelSeries GameDac Gen 2. Compatibility with other versions is not guaranteed.
+
+## Preview
+
+![Preview of GameDac Time](preview.jpg)
