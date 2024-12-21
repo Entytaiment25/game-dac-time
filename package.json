@@ -1,0 +1,19 @@
+{
+  "name": "game-dac-time",
+  "version": "1.0.0",
+  "description": "A project to show the time on the SteelSeries GameDac with config options",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "game",
+    "dac",
+    "time",
+    "steelseries"
+  ],
+  "author": "Entytaiment25",
+  "license": "ISC",
+  "dependencies": {}
+}
